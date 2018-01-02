@@ -4,13 +4,27 @@
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: center;
-    align-items: flex-start;
-    align-content: flex-start;
-    width: 60vw;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    width: 20vw;
     height: 100vh;
     font-size: 20px;
     font-weight: bold;
     list-style-type: none;
     padding-left: 20px;
+    padding: 0px;
+    border-radius: 5px;
+}
+.TodoList li {
+    margin: 5px;
+    border: 1px dotted black;
+    background-color: lightblue;
+    width: 100%;
+    text-align: center;
+    height: 35px;
+}
+.TodoList li button {
+    margin-left: 10px;
+    border-radius: 20%;
 }

@@ -1,0 +1,20 @@
+.TodoForm {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+}
+.TodoForm input {
+    font-size: 20px;
+    border: 1px solid black;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 1px;
+}
+.TodoForm button {
+    padding: 3px;
+    font-size: 18px;
+    
+}
